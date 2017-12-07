@@ -1,0 +1,12 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+# Test output
+test/icons
+
+# IntelliJ project files
+.idea

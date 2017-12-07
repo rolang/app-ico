@@ -1,0 +1,36 @@
+{
+  "name": "app-ico",
+  "version": "0.1.0",
+  "description": "Favicons generator using the RealFaviconGenerator API and simplified configuration",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rommeo85/app-ico"
+  },
+  "keywords": [
+    "icon",
+    "icons",
+    "favicon",
+    "favicons",
+    "RealFaviconGenerator",
+    "rfg",
+    "generator"
+  ],
+  "author": "Roman Langolf <rommeo85@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rommeo85/app-ico/issues"
+  },
+  "homepage": "https://github.com/Rommeo85/app-ico",
+  "bin": {
+    "app-ico": "bin/app-ico.js"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.3",
+    "node-rest-client": "^3.1.0",
+    "rfg-config": "Rommeo85/rfg-config#v0.0.2",
+    "unzipper": "^0.8.11"
+  }
+}
