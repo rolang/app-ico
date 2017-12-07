@@ -16,4 +16,7 @@ try {
   throw e;
 }
 
-require('./')(config);
+require('./')(config).catch(err => {
+  console.error(err);
+  process.exit(1);
+});
