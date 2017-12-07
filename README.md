@@ -3,7 +3,7 @@
  - Provides Node API and CLI
  
 ### Usage
-Create a configuration js file like `appico.config.js` (see [example](https://github.com/Rommeo85/app-ico/test/appico.config.js) and [configuration readme](https://github.com/Rommeo85/rfg-config#readme)).
+Create a configuration js file like `appico.config.js` (see [example](https://github.com/Rommeo85/app-ico/blob/master/test/appico.config.js) and [configuration readme](https://github.com/Rommeo85/rfg-config#readme)).
 
 ### Usage Node API
 ```js
