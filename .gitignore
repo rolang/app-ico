@@ -10,3 +10,6 @@ test/icons
 
 # IntelliJ project files
 .idea
+
+# cache
+.favicon-cache

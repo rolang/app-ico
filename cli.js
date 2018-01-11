@@ -5,6 +5,12 @@ const path = require('path');
 const confArgIndex = argv.indexOf('-c');
 let config = {};
 
+if (argv.indexOf('cleanup') > -1) {
+  require('./').removeCache();
+  console.info('Favicon cache cleared.');
+  return;
+}
+
 try {
   if (confArgIndex > -1) {
     config = require(path.resolve(argv[confArgIndex + 1]));

@@ -1,9 +1,9 @@
 {
   "name": "app-ico",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Favicons generator using the RealFaviconGenerator API and simplified configuration",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js && ./bin/app-ico.js cleanup"
   },
   "repository": {
     "type": "git",

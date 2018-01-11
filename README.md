@@ -14,7 +14,7 @@ let config = require('./appico.config');
 let createIcons = require('app-ico');
 
 createIcons(config).then(result => {
-  // "result" contains the response data from the RealFaviconGenerator API
+  // "result.response" contains the response data from the RealFaviconGenerator API
   
   // if config.output[files|html|response] is set, files will be written in the directory
 });
