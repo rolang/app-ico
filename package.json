@@ -30,7 +30,7 @@
   "dependencies": {
     "fs-extra": "^4.0.3",
     "node-rest-client": "^3.1.0",
-    "rfg-config": "Rommeo85/rfg-config#v0.0.2",
+    "rfg-config": "0.0.2",
     "unzipper": "^0.8.11"
   }
 }
