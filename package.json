@@ -1,6 +1,6 @@
 {
   "name": "app-ico",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Favicons generator using the RealFaviconGenerator API and simplified configuration",
   "scripts": {
     "test": "node test/test.js && ./bin/app-ico.js cleanup"
@@ -30,7 +30,7 @@
   "dependencies": {
     "fs-extra": "^4.0.3",
     "node-rest-client": "^3.1.0",
-    "rfg-config": "0.0.2",
+    "rfg-config": "0.0.3",
     "unzipper": "^0.8.11"
   }
 }
