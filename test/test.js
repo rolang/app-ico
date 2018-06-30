@@ -31,7 +31,6 @@ function testRun (expectedFromCache, callback) {
         'favicon.ico',
         'favicons.html',
         'favicons.json',
-        'manifest.json',
         'browserconfig.xml',
         'yandex-browser-50x50.png',
         'mstile-310x310.png',
