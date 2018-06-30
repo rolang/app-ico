@@ -1,12 +1,12 @@
 # app-ico
- - Favicon files generator using the [RealFaviconGenerator API](https://realfavicongenerator.net/) and simplified [configuration](https://github.com/Rommeo85/rfg-config).
+ - Favicon files generator using the [RealFaviconGenerator API](https://realfavicongenerator.net/) and simplified [configuration](https://github.com/rolang/rfg-config).
  - Provides Node API and CLI
 
 [![npm Package](https://img.shields.io/npm/v/app-ico.svg?style=flat-square)](https://www.npmjs.org/package/app-ico)
-[![Build Status](https://travis-ci.org/Rommeo85/app-ico.svg?branch=master)](https://travis-ci.org/Rommeo85/app-ico)
+[![Build Status](https://travis-ci.org/rolang/app-ico.svg?branch=master)](https://travis-ci.org/rolang/app-ico)
  
 ### Usage
-Create a configuration js file like `appico.config.js` (see [example](https://github.com/Rommeo85/app-ico/blob/master/test/appico.config.js) and [configuration readme](https://github.com/Rommeo85/rfg-config#readme)).
+Create a configuration js file like `appico.config.js` (see [example](https://github.com/rolang/app-ico/blob/master/test/appico.config.js) and [configuration readme](https://github.com/rolang/rfg-config#readme)).
 
 ### Usage Node API
 ```js
