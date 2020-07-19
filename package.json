@@ -1,6 +1,6 @@
 {
   "name": "app-ico",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Favicons generator using the RealFaviconGenerator API and simplified configuration",
   "scripts": {
     "test": "node test/test.js && ./bin/app-ico.js cleanup"
@@ -18,7 +18,7 @@
     "rfg",
     "generator"
   ],
-  "author": "Roman Langolf <rommeo85@gmail.com>",
+  "author": "Roman Langolf <rolang@pm.me>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rolang/app-ico/issues"
@@ -28,9 +28,8 @@
     "app-ico": "bin/app-ico.js"
   },
   "dependencies": {
-    "fs-extra": "^4.0.3",
-    "node-rest-client": "^3.1.0",
-    "rfg-config": "0.0.3",
-    "unzipper": "^0.8.11"
+    "extract-zip": "^2.0.1",
+    "fs-extra": "^9.0.1",
+    "rfg-config": "0.0.3"
   }
 }
