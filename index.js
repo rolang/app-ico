@@ -121,13 +121,9 @@ function downloadPkg (url, dest, cacheDir) {
       .on('error', reject)
       .on('finish', () => {
         extract(zipPath, { dir: path.resolve(dest) })
-        .then(() => {
-          if (cacheDir) {
-            fs.unlink(zipPath).then(fs.copy(dest, cacheDir)).then(resolve, reject);
-          } else {
-            fs.unlink(zipPath).then(resolve, reject);
-          }
-        }, reject)
+        .then(() => fs.unlink(zipPath))
+        .then(() => fs.copy(dest, cacheDir))
+        .then(resolve, reject)
       })
     }).on('error', reject);
   });
